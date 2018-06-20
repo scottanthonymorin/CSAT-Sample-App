@@ -1,0 +1,21 @@
+{
+  "name": "express-react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "~2.6.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.15.3",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.1",
+    "node-fetch": "^2.1.2",
+    "smooch-core": "^6.2.0"
+  },
+  "scripts": {
+    "start": "./server.js",
+    "deploy": "node pipeline/scripts/deploy_pipeline",
+    "show": "node pipeline/scripts/show_pipeline"
+  }
+}
